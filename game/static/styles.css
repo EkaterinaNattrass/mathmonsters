@@ -1,0 +1,65 @@
+:root {
+    --comics-yellow-colour: #FFDE00;
+}
+
+* {
+    /*border: 1px solid reed;*/
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+}
+
+main {
+    min-height: 100vh;
+}
+
+.heading-home {
+    font-size: 50px;
+    height: 400px;
+    background-color: var(--comics-yellow-colour);
+    text-align: center;
+}
+
+.heading-home h1 {
+    padding: 50px 0;
+}
+
+.btn-home-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.heading-home a {
+    font-size: 30px;
+    font-weight: bold;
+    height: 80px;
+    width: 300px;
+    color: black;
+    background-color: white;
+    border: 3px solid black;
+    padding: 20px;
+}
+
+.monsters-home {
+    display: flex;
+    justif
+}
+
+.log-in-container {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#name, #password {
+    margin-bottom: 20px;
+    padding: 10px;
+}

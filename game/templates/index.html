@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <title>MathMonsters || Home</title>
+</head>
+
+<body>
+    <div class="monsters-home">
+        <img src="{% static 'aldi-sigun-rTCDPl3C_os-unsplash.jpg' %}" height="200px">
+        <img src="{% static 'nicolas-hippert-UtYeVlBNCCA-unsplash.jpg' %}" height="200px">
+        <img src="{% static 'aldi-sigun-xyVIi4GN5Os-unsplash.jpg' %}" height="200px">
+    </div>
+    <div class="heading-home">
+        <h1>Math Monsters</h1>
+        <div class="btn-home-container">
+            <a href="create-monster" role="button" class="btn-home">Create your monster</a>
+            <a href="log-in" role="button" class="btn-home">Log in</a>
+        </div>
+    </div>
+    <div class="monsters-home">
+        <img src="{% static 'aldi-sigun-UDk-5VJro2g-unsplash.jpg' %}" height="200px">
+        <img src="{% static 'george-pagan-iii-WwCTFNpZx8g-unsplash.jpg' %}" height="200px">
+        <img src="{% static 'aldi-sigun-K-sdQ12jZeY-unsplash.jpg' %}" height="200px">
+    </div>
+</body>
+
+</html>
